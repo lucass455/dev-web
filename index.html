@@ -12,9 +12,80 @@
 
 <body>
 
-    <h1>Fazendo um teste</h1>
-    <p>Outro teste</p>
-    <div>Mais um teste</div>
+    <h1>Cadastro de alunos</h1>
+    <h2>Alunos cadastrados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Curso</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Silva</td>
+                <td>Desenvolvedor de sistemas</td>
+                <td>15</td>
+                <td>Novo Hamburgo</td>
+            </tr>
+            <tr>
+                <td>Mariana Costa</td>
+                <td>Excel</td>
+                <td>25</td>
+                <td>Campo Bom</td>
+            </tr>
+            <tr>
+                <td>Pedro Souza</td>
+                <td>Informática</td>
+                <td>22</td>
+                <td>São Leopoldo</td>
+            </tr>
+            <tr>
+                <td>Lucas Oliveira</td>
+                <td>Desenvolvedor de sistemas</td>
+                <td>25</td>
+                <td>Estãncia Velha</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Novo Cadastro</h2>
+    <form action="#" method="post">
+
+        <label for="nome">Nome Completo:</label>
+        <br><br>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br><br>
+        <input type="text" id="email" placeholder="Digite seu email">
+        <br><br>
+
+        <label for="idade">Idade:</label>
+        <br><br>
+        <input type="text" id="idade" placeholder="Digite sua idade">
+        <br><br>
+
+        <label for="curso">Escolha seu curso:</label>
+        <br><br>
+        <select name="curso" id="curso">
+            <option value="">Selecione um curso</option>
+            <option value="informatica">Informática</option>
+            <option value="excel">Excel</option>
+            <option value="desenvolvimento">Desenvolvimento de sistemas</option>
+        </select>
+        <br><br>
+        <label for="mensagem">Observações:</label>
+        <textarea id="mensagem" rows="4" placeholder="Digite alguma observação"></textarea>
+        <br><br>
+
+
+    </form>
+
+
 
 </body>
 </html>
