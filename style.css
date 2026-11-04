@@ -1,7 +1,9 @@
-.caixa{
-    display: block;
-    background-color: #ddf2fa;
-    border: 2px solid #246b9e;
-    padding: 20px;
-    margin-bottom: 10px;
+strong{
+    background-color: #fcebdB;
+    color: #8a4b08;
+}
+
+a{
+    color: #246b9e;
+    margin-right: 10px;
 }
